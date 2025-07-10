@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: api-formulario-publica
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn api:app
